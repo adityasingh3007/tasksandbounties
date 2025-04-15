@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tasksandbounties/static/css/main.6c73e7d0.css",
-    "main.js": "/tasksandbounties/static/js/main.764ec3d9.js",
+    "main.js": "/tasksandbounties/static/js/main.b2fca959.js",
     "static/js/453.ed3810f9.chunk.js": "/tasksandbounties/static/js/453.ed3810f9.chunk.js",
     "index.html": "/tasksandbounties/index.html",
     "main.6c73e7d0.css.map": "/tasksandbounties/static/css/main.6c73e7d0.css.map",
-    "main.764ec3d9.js.map": "/tasksandbounties/static/js/main.764ec3d9.js.map",
+    "main.b2fca959.js.map": "/tasksandbounties/static/js/main.b2fca959.js.map",
     "453.ed3810f9.chunk.js.map": "/tasksandbounties/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6c73e7d0.css",
-    "static/js/main.764ec3d9.js"
+    "static/js/main.b2fca959.js"
   ]
 }
