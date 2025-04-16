@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.appContainer {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.headerContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.button {
+  padding: 10px 24px;
+  margin: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button:hover {
+  background-color: white;
+  color: #007bff;
+  border: 1px solid #007bff;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.tabButton {
+  background-color: white;
+  border: 2px solid #007bff;
+  color: #007bff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.tabButton:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.sectionContainer {
+  margin-top: 30px;
+}
+
+.sectionContent {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  padding: 12px;
+  margin: 12px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 400px;
+  font-size: 1rem;
+}
+
+.status {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.disconnectButton {
+  padding: 10px 24px;
+  margin: 10px;
+  background-color: #dc3545; /* Bootstrap Red */
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
+}
+
+.disconnectButton:hover {
+  background-color: white;
+  color: #dc3545;
+  border: 1px solid #dc3545;
+}
+
+.taskGrid {
+  width: 100%;
+}
+
+.taskCard {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 15px 0;
+  border-radius: 12px;
+  text-align: left;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.03);
+  transition: border-color 0.3s ease;
+}
+
+.taskCard p {
+  margin: 6px 0;
+}
+
+.taskCard:hover {
+  border-color: black;
+}
+
+.taskCard.completed {
+  border: 2px solid #4CAF50; /* Green */
+}
+
+.center-text {
+  text-align: center;
+}
